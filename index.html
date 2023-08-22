@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="bg-light">
+    
+    <!-- #region Login card -->
+    <div class="container-fluid mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-header text-bg-primary">
+                        Login as admin
+                    </div>
+                    <div class="card-body">
+                        <form action="dash.html">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="UserName" autofocus placeholder="">
+                                <label for="UserName">UserName</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" id="password" class="form-control" autofocus placeholder="">
+                                <label for="password">password</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="checkbox" id="Remenber me" class="form-check-input" autofocus placeholder="">
+                                <label for="Remenber me">Remenber me</label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-success"><i class="fa fa-sign-in" aria-hidden="true"></i> Login as admin</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Login card -->
+    
+    <script src="./Bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.brand {
+    background: #177FCF;
+    background: linear-gradient(to right, #177FCF 0%, #25CF1F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.blog-modal-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#customTable th,
+td {
+    padding: 0.5rem !important;
+}
+
+.blur {
+    backdrop-filter: blur(2px);
+}
